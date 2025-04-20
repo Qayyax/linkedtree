@@ -13,7 +13,9 @@ export default function Home() {
         <LinkListSmall />
       </div>
       {/* Component goes here */}
-      <LinkListBig />
+      <div className="flex items-center justify-center">
+        <LinkListBig />
+      </div>
     </main>
   );
 }
