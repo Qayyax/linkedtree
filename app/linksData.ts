@@ -16,24 +16,29 @@ export const linksData: linkProperty[] = [
   {
     title: "X / Twitter",
     link: "https://www.instagram.com/tife_len/",
+    icon: Twitter,
   },
   {
     title: "Youtube - Vlog",
     link: "https://www.youtube.com/@TifeLogs",
     description: "I post weekly activities here and sometimes I stream",
+    icon: Youtube,
   },
   {
     title: "Youtube - Gaming",
     link: "https://www.youtube.com/@qayyax",
     description: "I post gaming contents here",
+    icon: Youtube,
   },
   {
     title: "GitHub",
     link: "https://www.github.com/qayyax",
+    icon: Github,
   },
   {
     title: "Portfolio",
     link: "https://www.qayyax.xyz",
     description: "Where I post projects I have worked on",
+    icon: Code,
   },
 ];

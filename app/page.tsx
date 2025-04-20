@@ -1,3 +1,5 @@
+import LinkListBig from "./components/link-list-big";
+import LinkListSmall from "./components/link-list-small";
 import { shantellSans } from "./fonts";
 
 export default function Home() {
@@ -8,7 +10,10 @@ export default function Home() {
           Tife Olatunji
         </h1>
         {/* Component goes here */}
+        <LinkListSmall />
       </div>
+      {/* Component goes here */}
+      <LinkListBig />
     </main>
   );
 }
