@@ -1,15 +1,12 @@
-import { ReactElement } from "react";
 import { linkProperty } from "../types";
 
-interface Props extends linkProperty {
-  children: ReactElement;
-}
+type Props = linkProperty;
 
-export default function LinkSmall({ link, children }: Props) {
+export default function LinkSmall({ link, icon }: Props) {
   return (
     <div className="small-link-container">
       <a href={link} target="_blank">
-        {children}
+        {icon}
       </a>
     </div>
   );
