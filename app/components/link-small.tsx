@@ -7,7 +7,7 @@ interface Props extends linkProperty {
 
 export default function LinkSmall({ link, children }: Props) {
   return (
-    <div>
+    <div className="small-link-container">
       <a href={link} target="_blank">
         {children}
       </a>
