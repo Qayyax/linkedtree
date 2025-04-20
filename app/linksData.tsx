@@ -25,15 +25,15 @@ export const linksData: linkProperty[] = [
     icon: Youtube,
   },
   {
+    title: "GitHub",
+    link: "https://www.github.com/qayyax",
+    icon: Github,
+  },
+  {
     title: "Youtube - Gaming",
     link: "https://www.youtube.com/@qayyax",
     description: "I post gaming contents here",
     icon: Youtube,
-  },
-  {
-    title: "GitHub",
-    link: "https://www.github.com/qayyax",
-    icon: Github,
   },
   {
     title: "Portfolio",
