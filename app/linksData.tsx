@@ -15,7 +15,7 @@ export const linksData: linkProperty[] = [
   },
   {
     title: "X / Twitter",
-    link: "https://www.instagram.com/tife_len/",
+    link: "https://x.com/qayyax",
     icon: Twitter,
   },
   {
