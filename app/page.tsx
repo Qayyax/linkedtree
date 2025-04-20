@@ -4,9 +4,9 @@ import { shantellSans } from "./fonts";
 
 export default function Home() {
   return (
-    <main>
-      <div className="name-link">
-        <h1 className={`${shantellSans.className} text-2xl font-extrabold`}>
+    <main className="flex flex-col items-center justify-center gap-4 pt-10">
+      <div className="name-link flex flex-col gap-2 mb-2">
+        <h1 className={`${shantellSans.className} text-3xl font-extrabold`}>
           Tife Olatunji
         </h1>
         {/* Component goes here */}

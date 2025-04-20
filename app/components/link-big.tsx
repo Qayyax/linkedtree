@@ -10,12 +10,12 @@ export default function LinkBig({
   icon: Icon,
 }: Props) {
   return (
-    <div className="big-link-container border-2 border-red-800 rounded-xl max-w-[350px]">
+    <div className="big-link-container border-2 border-purple-800 rounded-xl max-w-[350px]">
       <a href={link} target="_blank" className="grid grid-cols-7 gap-2 p-2">
         <div className="logo-container flex flex-col items-center justify-center ">
-          <Icon className="text-2xl " />
+          <Icon className="text-3xl " />
         </div>
-        <div className="logo-text-container col-span-6 flex flex-col items-start">
+        <div className="logo-text-container self-center col-span-6 flex flex-col items-start">
           <h1 className={`${shantellSans.className} font-bold`}>{title}</h1>
           {description && <p className="font-bold">{description}</p>}
         </div>
