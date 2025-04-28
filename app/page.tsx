@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className={`${shantellSans.className} text-3xl font-extrabold`}>
           Tife Olatunji
         </h1>
-        <div className={`text-center  ${shantellSans.className}`}>
+        <div className={`text-center  ${shantellSans.className} px-2`}>
           <p>I am currently looking for junior developer roles by the way</p>
         </div>
         {/* Component goes here */}
