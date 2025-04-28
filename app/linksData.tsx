@@ -35,16 +35,19 @@ export const linksData: linkProperty[] = [
   {
     title: "LinkedIn",
     link: "https://www.linkedin.com/in/tife-olatunji-b12729296/",
+    description: "Send me a message here :)",
     icon: LinkedIn,
   },
   {
     title: "Instagram",
     link: "https://www.instagram.com/tife_len/",
     icon: Instagram,
+    description: "Random posts plus chat with friends",
   },
   {
     title: "X / Twitter",
     link: "https://x.com/qayyax",
     icon: Twitter,
+    description: "I only post when I make something",
   },
 ];
