@@ -42,7 +42,7 @@ export const linksData: linkProperty[] = [
     title: "Instagram",
     link: "https://www.instagram.com/tife_len/",
     icon: Instagram,
-    description: "Random posts plus chat with friends",
+    description: "I post art and random things, chat with me here",
   },
   {
     title: "X / Twitter",
