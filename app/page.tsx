@@ -11,6 +11,7 @@ export default function Home() {
         </h1>
         <div className={`text-center  ${shantellSans.className} px-2`}>
           <p>I am currently looking for junior developer roles by the way</p>
+          <p>Please refer me if you can</p>
         </div>
         {/* Component goes here */}
         <LinkListSmall />
