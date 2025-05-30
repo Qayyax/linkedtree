@@ -1,6 +1,6 @@
 import { linkProperty } from "./types";
 
-// import { FaInstagram as Instagram } from "react-icons/fa6";
+import { FaInstagram as Instagram } from "react-icons/fa6";
 import { FaXTwitter as Twitter } from "react-icons/fa6";
 import { FaYoutube as Youtube } from "react-icons/fa6";
 import { FaGithub as Github } from "react-icons/fa";
@@ -37,12 +37,12 @@ export const linksData: linkProperty[] = [
     description: "Send me a message here :)",
     icon: LinkedIn,
   },
-  // {
-  //   title: "Instagram",
-  //   link: "https://www.instagram.com/tife_len/",
-  //   icon: Instagram,
-  //   description: "I post art and random things, chat with me here",
-  // },
+  {
+    title: "Instagram",
+    link: "https://www.instagram.com/tife_len/",
+    icon: Instagram,
+    description: "I post art and random things, chat with me here",
+  },
   {
     title: "X / Twitter",
     link: "https://x.com/qayyax",
