@@ -1,52 +1,66 @@
-import { linkProperty } from "./types";
+import {
+  FaYoutube,
+  FaStrava,
+  FaInstagram,
+  FaTiktok,
+  FaGlobe,
+} from "react-icons/fa6";
+import { LinkItem } from "./types";
 
-import { FaYoutube as Youtube } from "react-icons/fa6";
-import { FaGithub as Github } from "react-icons/fa";
-import { FaCode as Code } from "react-icons/fa";
-import { FaLinkedin as LinkedIn } from "react-icons/fa6";
-import { FaInstagram as Instagram } from "react-icons/fa6";
-import { FaXTwitter as Twitter } from "react-icons/fa6";
+export const TRAINING_PLAN_URL =
+  "https://app.notion.com/p/Training-Plan-40cf4ab2ca6581c68f34f6fbe11b2053?source=copy_link";
+export const COFFEE_URL = "https://coff.ee/qayyax";
+export const EMAIL = "qayyax@gmail.com";
 
-export const linksData: linkProperty[] = [
+export const week = [
+  { day: "Mon", focus: "Chest and triceps" },
+  { day: "Tue", focus: "Back and biceps" },
+  { day: "Wed", focus: "Legs" },
+  { day: "Thu", focus: "Shoulders" },
+  { day: "Fri", focus: "Chest and arms" },
+  { day: "Sat", focus: "Back and hamstrings" },
+  { day: "Sun", focus: "Rest", rest: true },
+];
+
+export const links: LinkItem[] = [
   {
-    title: "Youtube - Vlog",
-    link: "https://www.youtube.com/@TifeLogs",
-    description: "I post weekly activities here",
-    icon: Youtube,
+    title: "TifeLogs on YouTube",
+    prompt: "A new vlog every week. See what my week looks like.",
+    cta: "Watch",
+    href: "https://www.youtube.com/@TifeLogs/",
+    brand: "#ff0033",
+    icon: FaYoutube,
   },
   {
-    title: "GitHub",
-    link: "https://www.github.com/qayyax",
-    icon: Github,
-  },
-  {
-    title: "Youtube - Gaming",
-    link: "https://www.youtube.com/@qayyax",
-    description: "I post gaming contents here",
-    icon: Youtube,
-  },
-  {
-    title: "Portfolio",
-    link: "https://www.qayyax.xyz",
-    description: "Where I post projects I have worked on",
-    icon: Code,
-  },
-  {
-    title: "LinkedIn",
-    link: "https://www.linkedin.com/in/tife-olatunji-b12729296/",
-    description: "Send me a message here :)",
-    icon: LinkedIn,
+    title: "Run with me on Strava",
+    prompt: "Follow my runs and see my pace.",
+    cta: "Follow",
+    href: "https://www.strava.com/athletes/1545128530",
+    brand: "#fc4c02",
+    icon: FaStrava,
   },
   {
     title: "Instagram",
-    link: "https://www.instagram.com/tife_len/",
-    icon: Instagram,
-    description: "I post art and random things, chat with me here",
+    prompt: "Photos, art and behind the scenes. Say hi in my DMs.",
+    cta: "Follow",
+    href: "https://www.instagram.com/tifelogs",
+    brand: "#e1306c",
+    icon: FaInstagram,
   },
   {
-    title: "X / Twitter",
-    link: "https://x.com/qayyax",
-    icon: Twitter,
-    description: "I only post when I make something",
+    title: "TikTok",
+    prompt: "Quick clips between the vlogs.",
+    cta: "Watch",
+    href: "https://www.tiktok.com/@tifelogs",
+    brand: "#25f4ee",
+    icon: FaTiktok,
+  },
+  {
+    title: "qayyax.xyz",
+    prompt: "More more about me.",
+    cta: "Visit",
+    href: "https://qayyax.xyz",
+    brand: "#2a3fe0",
+    icon: FaGlobe,
   },
 ];

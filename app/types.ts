@@ -1,8 +1,10 @@
 import { IconType } from "react-icons";
 
-export type linkProperty = {
-  title?: string;
-  link: string;
-  description?: string;
+export type LinkItem = {
+  title: string;
+  prompt: string;
+  cta: string;
+  href: string;
+  brand: string;
   icon: IconType;
 };

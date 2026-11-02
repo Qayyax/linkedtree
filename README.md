@@ -1,8 +1,8 @@
-# My Personal Social Links
+# Tife's link page
 
-This is going to be like linkedtree, just with Next.js
+Next.js + Tailwind v4 link-in-bio. Edit links, the weekly strip and contact details in `app/linksData.tsx`.
 
-
-### Connect with me below:
-
--
+```bash
+npm install
+npm run dev
+```
