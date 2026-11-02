@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-court: #2a3fe0;
+  --color-court: #691a96;
   --color-deep: #0b1030;
   --color-paper: #f7f5ef;
   --color-sun: #ffd84d;
@@ -9,7 +9,9 @@
   --font-hand: var(--font-caveat);
 }
 
-html { background: var(--color-court); }
+html {
+  background: var(--color-court);
+}
 body {
   background: var(--color-court);
   color: var(--color-paper);
@@ -22,12 +24,25 @@ a:focus-visible {
 }
 
 @keyframes pop {
-  from { opacity: 0; transform: translateY(8px) scale(0.96); }
-  to { opacity: 1; transform: none; }
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
-.pill { animation: pop 0.45s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: calc(var(--i) * 70ms + 200ms); }
+.pill {
+  animation: pop 0.45s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: calc(var(--i) * 70ms + 200ms);
+}
 
 @media (prefers-reduced-motion: reduce) {
-  .pill { animation: none; }
-  * { transition: none !important; }
+  .pill {
+    animation: none;
+  }
+  * {
+    transition: none !important;
+  }
 }
